@@ -9,7 +9,7 @@ dependencies {
     implementation project(':arouter-api')
     annotationProcessor project(':arouter-compiler')
 
-    implementation 'com.alibaba:fastjson:1.2.83'
+    implementation 'com.alibaba.fastjson2:fastjson2:2.0.43'
 }
 android {
     namespace 'com.alibaba.android.arouter.demo.service'
@@ -28,8 +28,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 
     buildTypes {

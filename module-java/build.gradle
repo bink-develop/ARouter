@@ -10,7 +10,7 @@ dependencies {
     implementation project(':module-java-export')
 
     implementation "androidx.appcompat:appcompat:${ANDROIDX_APPCOMPAT_LIB_VERSION}"
-    implementation 'com.alibaba:fastjson:1.2.83'
+    implementation 'com.alibaba.fastjson2:fastjson2:2.0.43'
 }
 android {
     namespace 'com.alibaba.android.arouter.demo.module1'
